@@ -1,0 +1,13 @@
+def collatz(number):
+    n = []
+    n.append(number)
+    while(number !=1):
+        if (number %2==0):
+            number = number//2
+            n.append(number)
+        else:
+            number = 3 * number +1
+            n.append(number)
+
+    print(n)
+collatz(516)
