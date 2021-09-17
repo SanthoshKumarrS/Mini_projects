@@ -1,0 +1,24 @@
+import sys
+import time
+
+asteroid = 0
+asteroidincreasing = True
+
+try:
+    while True:
+        print(' ' * asteroid, end='')
+        print('*****')
+        time.sleep(0.2)
+
+        if asteroidincreasing:
+            asteroid += 1
+            if asteroid == 25:
+                asteroidincreasing =False
+
+        else:
+            asteroid -= 1
+            if asteroid ==0:
+                asteroidincreasing = True
+
+except KeyboardInterrupt:
+    sys.exit()
