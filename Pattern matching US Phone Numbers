@@ -1,0 +1,4 @@
+import re
+phonenumregex = re.compile(r'(\d\d\d)-(\d\d\d)-(\d\d\d\d)')
+mo = phonenumregex.search('My mobile number is 444-854-8989')
+print('phone number found: ' + mo.group())
