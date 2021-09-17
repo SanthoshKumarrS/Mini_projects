@@ -1,0 +1,10 @@
+#In this Exercise i have used if/else statements to find the down payment of the House
+
+
+price_of_house = 1000000
+good_credit =False
+if good_credit:
+    down_payment = price_of_house * .10
+else:
+    down_payment = price_of_house * .20
+print(f'Down payement for the house is ${down_payment}')
