@@ -1,0 +1,8 @@
+# Have used For loops to find the highest number in the given list
+
+list = [11,10,15,16,17,21,35,16]
+max = 0
+for number in list:
+    if max < number:
+        max = number
+print(max)
