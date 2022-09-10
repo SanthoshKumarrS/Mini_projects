@@ -1,2 +1,2 @@
 # Mini_projects
-These are the projects i used , inorder to Learn Python
+These are the projects i used to Learn Python
