@@ -1,0 +1,11 @@
+import requests
+
+city = input(' ') # Enter the City name in the bracket
+print(f'Collecting Weater report for: {city}')
+
+#collect the weater details
+url = 'https://wttr.in/{}'.format(city)
+res = requests.get(url)
+
+#Forecast the result!
+print(res.text)
