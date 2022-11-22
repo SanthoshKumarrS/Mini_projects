@@ -1,2 +1,2 @@
 # Mini_projects
-These are the projects i used to Learn Python
+#A collection of small Python projects to help me improve my Python skills.
